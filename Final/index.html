@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+    <title>YouTube Revenue Visualuze</title>
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+   </head>
+   <body>
+    <select name="Figure" id = "Figure" style = "text-align: center;float: center; height: 55px; font-size: 22px;">
+        <option disabled selected value>--Select Figure--</option>
+        <option value="histo">Histogram</option>
+        <option value="scatter">Scatter Plot</option>
+        <option value="coorv1">Parallel Coordinate</option>
+    </select>
+    <div id ="c1">
+      <svg width="1420" height="880" id="chart"></svg>
+      <div id = "buttons">
+      </div>
+    </div>
+    <script src="Final.js"></script>
+   </body>
+</html>
